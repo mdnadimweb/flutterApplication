@@ -7,6 +7,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/home.dart';
+import 'package:flutter_application_2/home_page.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:flutter_application_2/main.dart';
