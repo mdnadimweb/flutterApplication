@@ -9,12 +9,13 @@ class HomePage extends StatelessWidget {
       body: Stack(
         children: [
           // 🔵 Background Image
-          SizedBox.expand(
-            child: Image.asset(
-              'assets/banner.jpg',
-              fit: BoxFit.cover,
-            ),
-          ),
+        SizedBox.expand(
+  child: Image.network(
+    'https://cdn.pixabay.com/photo/2019/11/25/12/58/christmas-4651978_1280.jpg',
+    fit: BoxFit.cover,
+  ),
+),
+
 
           // 🔴 Overlay Content
           Container(
