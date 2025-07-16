@@ -32,7 +32,7 @@ class HomePage extends StatelessWidget {
                     "Explore The World",
                     style: TextStyle(
                       fontSize: 36,
-                      color: Colors.white,
+                      color: Color.fromARGB(255, 5, 19, 167),
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -41,7 +41,7 @@ class HomePage extends StatelessWidget {
                     "Find amazing places to visit and enjoy unforgettable experiences.",
                     style: TextStyle(
                       fontSize: 18,
-                      color: Colors.white70,
+                      color: Color.fromARGB(214, 216, 19, 19),
                     ),
                   ),
                   const SizedBox(height: 30),
